@@ -1,1 +1,1 @@
-# alphamat
+# AlphaMat
