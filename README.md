@@ -31,7 +31,7 @@ Step 6: Set the .bashrc
 
 on the last line, write:
 
--- export PATH="/**/**/.../AlphaMat/:$PATH"
+-- export PATH="/XXX/XXX/.../AlphaMat/:$PATH"
 
 -- source ~/.bashrc
 
