@@ -1,5 +1,6 @@
 # AlphaMat
 AlphaMat is committed to promoting the development of materials informatics together with the existing toolkits and contributing to the implementation of AI for Science.
+![1](https://github.com/CodingWZL/AlphaMat/assets/104205506/1ce4aeed-d447-4b1e-9366-c2e17c88a4c7)
 
 # Installation
 Step 1: Create the enviornment
