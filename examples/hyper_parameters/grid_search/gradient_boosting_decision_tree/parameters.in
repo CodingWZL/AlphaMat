@@ -1,0 +1,38 @@
+# Do not change the format of this file !!!
+#####################################
+######## Supervised Learning ########
+logistic_regression = 0.2 0.0001 100 1                           # test_ratio, Tol, max_iter, n_jobs
+linear_regression = 0.2 0.0001 100                             # test_ratio, Tol, max_iter
+decision_tree = 0.2 3 auto 3                                     # test_ratio, max_depth, max_features, max_leaf_nodes
+gradient_boosting_decision_tree = 0.2 0.1 100 0.8 5              # test_ratio, learning_rate, n_estimators, subsample, max_depth
+extreme_boosting_decision_tree = 0.2 0.1 100 0.8 5               # test_ratio, learning_rate, n_estimators, subsample, max_depth
+random_forest = 0.2 100 5                                        # test_ratio, n_estimators, max_depth
+support_vector_machine = 0.2 1.0 rbf                             # test_ratio, regularization(C), kernel
+adaptive_boosting = 0.2 0.1 50                                   # test_ratio, learning_rate, n_estimators
+k_nearest_neighbor = 0.2 5 10                                    # test_ratio, n_neighbors, leaf_size
+s_artificial_neural_network = 0.2 (5,4,2) logistic adam 4 0.2 200          # test_ratio, hidder_layers_size, activation, solver, batch_size, learning_rate, max_iter
+gaussian_process = 0.2                                           # test_ratio
+
+#######################################
+######## Unsupervised Learning ########
+k_means = 4 300                                                  # n_cluster, max_iter
+agglomerative_hierarchical_clustering = 10 ward                  # n_cluster, linkage
+spectral_clustering = 4 2 3                                      # n_cluster, n_neighbors, degree
+principal_component_analysis = 2                                 # n_components
+
+###################################
+######## Transfer Learning ########
+t_artificial_neural_network = 0.2 3 tanh adam 2 0.1 200          # test_ratio, hidder_layers_size, activation, solver, batch_size, learning_rate, max_iter
+
+###############################################
+######## Hyper-parameters Optimization ########
+hyper_logistic_regression = 0.2 0.0001 [50,60]                                     # test_ratio, Tol, max_iter
+hyper_linear_regression = 0.2 0.0001 [50,60]                                       # test_ratio, Tol, max_iter
+hyper_decision_tree = 0.2 auto [2,10] [2,4]                                        # test_ratio, max_features, max_depth, max_leaf_nodes
+hyper_gradient_boosting_decision_tree = 0.2 [0.1,0.2] [5,10] [0.7,0.8] [1,5]       # test_ratio, learning_rate, n_estimators, subsample, max_depth
+hyper_extreme_boosting_decision_tree = 0.2 [0.1,0.2] [10,50] [0.7,0.8] [1,5]       # test_ratio, learning_rate, n_estimators, subsample, max_depth
+hyper_random_forest = 0.2 [10,50] [1,5]                                            # test_ratio, n_estimators, max_depth
+hyper_support_vector_machine = 0.2 [0.8,1.0] [rbf,poly,linear]                     # test_ratio, regularization(C), kernel
+hyper_artificial_neural_network = 0.2 [3,4] tanh adam [2,3] [0.1,0.2] [50,100]     # test_ratio, hidder_layers_size, activation, solver, batch_size, learning_rate, max_iter
+hyper_k_nearest_neighbor = 0.2 [1,5] [2,5]                                         # test_ratio, n_neighbors, leaf_size
+hyper_adaptive_boosting = 0.2 [0.1,0.2] [40,50]                                    # test_ratio, learning_rate, n_estimators
