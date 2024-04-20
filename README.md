@@ -53,7 +53,7 @@ If you want to implement more functions (which may not be in the current version
 # Citing
 If you find AlphaMat useful to you, please cite:
 
-Zhilong Wang, An Chen, Kehao Tao, Junfei Cai, Yanqiang Han, Jing Gao, Simin Ye, Shiwei Wang, Imran Ali, Jinjin Li. AlphaMat: a material informatics hub connecting data, features, models and applications. npj Computational Materials 9, 130 (2023).
+Zhilong Wang#, An Chen#, Kehao Tao#, Junfei Cai, Yanqiang Han, Jing Gao, Simin Ye, Shiwei Wang, Imran Ali, Jinjin Li. AlphaMat: a material informatics hub connecting data, features, models and applications. npj Computational Materials 9, 130 (2023).
 https://doi.org/10.1038/s41524-023-01086-5
 
 # References:
@@ -62,5 +62,8 @@ https://doi.org/10.1016/j.physrep.2021.08.002
 
 [2] Zhilong Wang, Yanqiang Han, Junfei Cai, An Chen, Jinjin Li*. Vision for energy material design: A roadmap for integrated data-driven modeling. Journal of Energy Chemistry 71, 56-62 (2022).
 https://doi.org/10.1016/j.jechem.2022.03.052
+
+
+
 
 
